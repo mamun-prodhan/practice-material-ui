@@ -34,7 +34,6 @@ function App() {
         <Button variant='outlined'>Checkout</Button>
         <LoadingButton
           loading={loading}
-          loadingIndicator='Loading...'
           variant='outline'
           onClick={()=> setLoading(true)}
         >
