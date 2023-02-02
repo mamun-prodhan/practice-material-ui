@@ -1,3 +1,6 @@
+import { LoadingButton } from '@mui/lab';
+import { Button } from '@mui/material';
+import { Stack } from '@mui/system';
 import './App.css';
 
 function App() {
@@ -12,6 +15,14 @@ function App() {
         padding: '2rem',
       }}
       >
+        <Stack spacing={2} direction="row">
+        <Button variant='contained' color='error'>Checkout</Button>
+        <Button variant='outlined'>Checkout</Button>
+        <Button variant='text'>Checkout</Button>
+        </Stack>
+
+
+
       </div>
     </div>
   );
